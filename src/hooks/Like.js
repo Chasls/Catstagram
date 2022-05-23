@@ -39,7 +39,7 @@ export default function Like(likeToChild){
         
             // For not multi computer enviroment Change 192.168.1.126 =>localhost
             // if multi computer enviroment change 192.168.1.126 to what you have as you network gateway
-            const response= fetch(`http://localhost:8081/post`,{ 
+            const response= fetch("",{ 
                 method:"PUT",
                 headers:{
                     "Content-Type":"application/json",
@@ -64,7 +64,7 @@ export default function Like(likeToChild){
             // For not multi computer enviroment Change 192.168.1.126 =>localhost! 
             // if multi computer enviroment change 192.168.1.126 to what you have as you network gateway
 
-            fetch(`http://localhost:8000/users/${postUserId}/points`, { 
+            fetch("", { 
                 method:"PUT",
                 headers:{
                     "Content-Type":"application/json"
@@ -86,7 +86,7 @@ export default function Like(likeToChild){
                 // For not multi computer enviroment Change 192.168.1.126 =>localhost! 
                 // if multi computer enviroment change 192.168.1.126 to what you have as you network gateway
                 
-                fetch(`http://localhost:8081/likes/${likesId}`,{
+                fetch(`""${likesId}`,{
                     method:"DELETE",
                     });
                 
@@ -101,7 +101,7 @@ export default function Like(likeToChild){
                 const likestateJSON = JSON.stringify(likestate);
                 // For not multi computer enviroment Change 192.168.1.126 =>localhost! 
                 // if multi computer enviroment change 192.168.1.126 to what you have as you network gateway
-                fetch("http://localhost:8081/likes", { 
+                fetch("", { 
                     method:"POST",
                     headers:{
                         "Content-Type":"application/json"
@@ -122,7 +122,7 @@ export default function Like(likeToChild){
         function isState(currentuserid){
             if(!isLoaded){
                 // makes a fetch call to table posts where current user id is found and pulls out all posts user has a state with
-                fetch(`http://localhost:8081/likes/${currentuserid}`) 
+                fetch("") 
                 .then(response => response.json())
                 .then(data => checkState(data));
                 function checkState(i){
