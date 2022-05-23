@@ -1,0 +1,60 @@
+.blur{
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 50;
+    opacity: 60%;
+    
+    position: absolute;
+    cursor: grab;
+    
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.closeButton{
+    position: fixed;
+
+    z-index: 100;
+    padding: 0.5em;
+    font-size: 5em;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: grabbing;
+}
+
+
+.changeScreen{
+    margin-top: 15vh;
+    padding-top: 5vh;
+
+    z-index: 75;
+    position: relative;
+
+    width: 100vw;
+    height: 50vh;
+
+    text-align: center;
+
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.ggMessage{
+    padding: 2vw;
+    margin: 1vw;
+    width: 60vw;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+.ggPosts{
+    padding-left: 10vw;
+}
