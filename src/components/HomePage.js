@@ -9,10 +9,7 @@ import '../css/Post.css';
 import '../css/HomePage.css';
 import DummyLike from "../hooks/DummyLike";
 
-/**
- * Displays a series of posts for the main page that a user sees when first logging in.
- * @author William Gaines
- */
+
 
 export default function HomePage() {
 
