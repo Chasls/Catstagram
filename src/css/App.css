@@ -1,0 +1,122 @@
+/* global css rules */
+html, body, #root, .App {
+    height: 100%;
+    background: rgba(185, 185, 186);
+  }
+  
+  
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-header {
+    height: 100px;
+    background-color: rgb(226, 95, 43);
+  }
+  
+  .App-footer {
+    position: absolute;
+    bottom: 0;
+  
+    height: 50px;
+    background-color: rgb(226, 95, 43);
+  }
+  
+  /* Here's the standard font for P3*/
+  /* @font-face {
+    font-family: 'fonts';
+    src: local('fonts'), url(./fonts/Futura-Std-Bold.otf) format('woff');
+  } */
+  
+  /*Here's the button itself. Can change each individual just by className
+  but for the sake of org here's the main css for all buttons.
+  */
+  button, input[type="submit"]{  
+    /* display: flex; */
+    /* margin: 100px auto; 
+    background-color: #2d09fa;*/
+    font-size: 15px;
+    font-family: Futura-Std-Medium;
+    padding: 5px 15px;
+    border: color black;
+    border-radius: 6px;
+    /* box-shadow: 5px 5px 5px 5px rgba(0.1); */
+  }
+  /*Button 1 background and play
+  */
+  .btn1{
+    display: block;
+    margin: 100px auto;
+    /* Added background image to button block */
+    background-image: url(https://imgs.search.brave.com/AQbCHuXw1hMpWABvVnvSjoP3fTNvf2loaCJhVOqqtXE/rs:fit:340:255:1/g:ce/aHR0cHM6Ly9tZWRp/YS5naXBoeS5jb20v/bWVkaWEvMTJIWnVr/TUJsdXRwb1EvZ2lw/aHkuZ2lm.gif);
+    font-size: 24px;
+    padding: 15px 20px;
+    border: color black;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px 5px rgba(0.1);
+     
+  } 
+  
+  .btn2{   
+    display: block;
+    margin: 100px auto;
+    background-image: url(https://imgs.search.brave.com/3DYQdKFo4fpLIGghfkBF1j1epJIovLqIyBzp1-TCJvg/rs:fit:500:279:1/g:ce/aHR0cDovL2VudHJv/cHltYWcub3JnL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE1LzA0/L2Z1bm55LWdpZi1j/YXQtdGFraW5nLW9m/Zi1nbGFzc2VzLmdp/Zg.gif);
+    background-color: rgb(104, 43, 226);
+    font-size: 24px;
+    padding: 15px 20px;
+    border: color black;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px 5px rgba(0.1);
+       
+  }
+  .btn3{
+     
+    display: block;
+    margin: 100px auto;
+    background-color: rgb(177, 226, 43);
+    background-image: url(https://imgs.search.brave.com/a1G6a6wvPSmfw2rfOuAqjquMscYtOpff7qqjfrYTics/rs:fit:500:375:1/g:ce/aHR0cDovLzMxLm1l/ZGlhLnR1bWJsci5j/b20vMzUzNzQzZTMy/OTQ5ZGNjODY2NzRi/YjJlNmZlMzIwYWEv/dHVtYmxyX25nMnlj/bHhRS1cxdGU1cnVz/bzFfNTAwLmdpZg.gif);
+    font-size: 24px;
+    padding: 15px 20px;
+    border: color black;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px 5px rgba(0.1);
+       
+  }
+  .btn4{
+    display: block;
+    margin: 100px auto;
+    background-color: rgb(14, 13, 16);
+    background-image: url(https://imgs.search.brave.com/2vrr14b_vxFvgvbuEs2USucOQkzzac-5KWWZIsNBeKU/rs:fit:368:293:1/g:ce/aHR0cDovLzMuYnAu/YmxvZ3Nwb3QuY29t/Ly1OMEhwMEdWRVJy/MC9VVndWVk9scnhy/SS9BQUFBQUFBQWhS/WS9EZFFmeTNNQk5j/RS9zMTYwMC9mdW5u/eS1jYXQtZ2lmcy0w/NDQtMDA4LmdpZg.gif);
+    font-size: 24px;
+    padding: 15px 20px;
+    border: color rgb(91, 90, 90);
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px 5px rgba(0.1);
+     
+  }
+  .btn5{
+    display: block;
+    margin: 100px auto;
+    background-color: rgb(172, 169, 14);
+    background-image: url(https://imgs.search.brave.com/4wqSZ_f7flYYHWwQ6ZBV0oQ38ZSV1NzVerqBhgsG6QY/rs:fit:400:437:1/g:ce/aHR0cHM6Ly9tZWRp/YTEuZ2lwaHkuY29t/L21lZGlhL0VudDJq/NTVseVFpcGEvZ2lw/aHkuZ2lm.gif);
+    font-size: 24px;
+    padding: 15px 20px;
+    border: color rgb(82, 81, 81);
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px 5px rgba(0.1);
+     
+  }
+  
+      
+  button:hover, input[type="submit"] {
+          padding: 25px color black;
+          opacity: 0.85;
+          cursor: pointer;
+          transition: all 200ms ease-in-out;
+  }
+
+  .logout{
+    background-color: rgba(253, 181, 21);
+  }
+  

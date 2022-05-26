@@ -30,7 +30,8 @@ async function loginUser(event) {
         email: inputFields.email,
         password: inputFields.password
     };
-
+//
+//http://catstagram.lofty.codes/api/users/login/?format=api
     let data = await fetch("http://catstagram.lofty.codes/api/users/login", {
         headers: {
             "content-type": "application/json",

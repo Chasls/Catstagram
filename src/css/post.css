@@ -1,0 +1,58 @@
+* post css rules */
+.flex-container {
+    display: flex;
+}
+
+#post-container{
+    margin: auto;
+    width: 60%;
+  
+    flex-direction: column;
+    align-items: center;
+    align-self: center;  
+}
+
+/*Current color scheme*/
+.post, .comment{
+    margin-top: 33px;
+    padding: 10px;
+    height: auto;
+    color: rgb(93, 93, 93);
+    background-color: rgb(255, 244, 239);
+    box-shadow: 10px 10px 0px rgb(242 105 38);
+    border: 1px solid rgb(93, 93, 93);
+    
+    /* box-shadow: 0 0 0 3px  black; */
+    border-radius: 15px;
+    overflow:auto;
+    scrollbar-width: none;
+    size: 16px; 
+} 
+
+
+
+
+
+li {
+    list-style: none;
+}
+
+.comment {
+    text-align: center;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+
+.post::-webkit-scrollbar, .comment::-webkit-scrollbar{
+    display: none;
+}
+  
+.post-header {
+    justify-content: space-between;
+}
+
+.post-header h4 {
+    text-decoration: underline solid 2px rgb(226, 95, 43);
+}
+  

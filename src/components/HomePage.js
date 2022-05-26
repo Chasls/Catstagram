@@ -4,8 +4,8 @@ import Like from "../hooks/Like";
 import Change from "./Change";
 
 import '../css/App.css';
-import '../css/Like.css';
-import '../css/Post.css';
+import '../css/like.css';
+import '../css/post.css';
 import '../css/HomePage.css';
 import DummyLike from "../hooks/DummyLike";
 

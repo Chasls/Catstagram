@@ -1,0 +1,73 @@
+/* General page stlying */
+#profile-page{
+    text-align: center;
+}
+
+#profile-data{
+  
+  height:320px; 
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding: 1rem;
+  width: 30rem;
+  border-radius: 10px;
+  color: rgb(93, 93, 93);
+  background-color: rgb(255, 244, 239);
+  box-shadow: 10px 10px 0px rgb(242 105 38);
+  border: 1px solid rgb(93, 93, 93);
+  text-align: center;
+
+    
+}
+
+/* Edit profile button style */
+#profile-edit-options{
+    
+    /* We will add to this later  */
+}
+/* ---------------------- */
+
+/* Parent div for the next few functions */
+#update-parent{
+    padding: 10px 0px 10px 0px;
+
+}
+
+/* About me specific style */
+.update-aboutMe-area{
+  height:200px; 
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding: 1rem;
+  width: 30rem;
+  background-color: rgb(255, 244, 239);
+  box-shadow: 10px 10px 0px rgb(242 105 38);
+  border: 1px solid rgb(93, 93, 93);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Name area specific style */
+.update-name-area{
+  height:200px; 
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 1rem;
+  width: 30rem;
+  background-color: rgb(255, 244, 239);
+  box-shadow: 10px 10px 0px rgb(242 105 38);
+  border: 1px solid rgb(93, 93, 93);
+  border-radius: 15px;
+  text-align: center;    
+}
+
+/* Margin and padding for the name area styling */
+.update-name-area input, button{
+
+  margin: 8px 0px;
+  /* padding-top:px; */
+
+}
